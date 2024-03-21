@@ -4,7 +4,7 @@ import minji.hellospring.domain.Member;
 
 import java.util.*;
 
-public class MemoryMemberRepository implements MemberRepository{
+public class MemoryMemberRepository implements MemberRepository {
     // 실무에서는 동시성 문제가 있을 수 있으므로 공유되는 변수의 경우에는 Concurrent HashMap 을 사용해야 한다.
     private static Map<Long, Member> store = new HashMap<>();
     // 실무에서는 동시성 고려 해서 autumn long 처리 등을 해주어야 함 !
