@@ -5,6 +5,7 @@ import minji.hellospring.domain.Member;
 import java.util.List;
 import java.util.Optional;
 
+// Repository 는 단순히 개발 기능에 대한 네이밍
 // 회원 객체를 저장하는 저장소
 public interface MemberRepository {
     Member save(Member member); // 회원 저장
