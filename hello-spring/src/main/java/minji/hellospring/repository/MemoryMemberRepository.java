@@ -1,6 +1,7 @@
 package minji.hellospring.repository;
 
 import minji.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
